@@ -11,13 +11,14 @@ rect(x,y,an,al);
 function dibujarBoton (px,py,an,al){
  
  if (areaBoton(px,py,an,al)){
-   fill(0,255,255);
+   fill(255,255,0);
 }else { 
-  fill(255, 0, 255);
+  fill(255, 200, 0);
 }
 rect(px,py,an,al,al/4);
 
 }
+
 
 function areaBoton(x,y,an,al){
 
